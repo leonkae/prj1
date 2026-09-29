@@ -5,11 +5,8 @@
   font-family: "Outfit", sans-serif;
   scroll-behavior: smooth;
 }
-.main-wrapper {
-  border: 3px solid red;
-}
+
 .page-title {
-  border: 3px solid blue;
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -26,10 +23,6 @@
   font-weight: 400;
 }
 
-#about-section {
-  border: 3px solid purple;
-}
-
 .section-title {
   font-size: 2rem;
   color: #333;
@@ -40,31 +33,38 @@
 }
 
 .about-parent {
-  border: 3px solid orange;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .about-paragraph{
-  width: 400px;
+  width: 500px;
+  margin: 10px;
+}
+.about-paragraph p{
+  text-align: end;
+  font-weight: 500;
 }
 
 .image-holder-about {
   height: 400px;
   width: 400px;
+  margin: 10px;
 }
 
 .image-holder-about img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 30px;
 }
 
 .main-wrapper nav {
-  border: 3px solid green;
   padding: 15px;
   background-color: #fffefb;
+  position: fixed;
+  width: 100%;
 }
 .main-wrapper nav a {
   color: #333;
