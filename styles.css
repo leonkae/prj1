@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  scroll-behavior: smooth;
+}
+.main-wrapper {
+  border: 3px solid red;
+}
+.page-title {
+  border: 3px solid blue;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/morrocan.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page-title h1 {
+  font-size: 3rem;
+  color: #f3f3f3;
+  font-weight: 400;
+}
+
+#about-section {
+  border: 3px solid purple;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-bottom: 2px solid #333;
+}
+
+.about-parent {
+  border: 3px solid orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-paragraph{
+  width: 400px;
+}
+
+.image-holder-about {
+  height: 400px;
+  width: 400px;
+}
+
+.image-holder-about img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-wrapper nav {
+  border: 3px solid green;
+  padding: 15px;
+  background-color: #fffefb;
+}
+.main-wrapper nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.main-wrapper nav a:hover,
+.main-wrapper nav a:focus-visible {
+  color: rgb(223, 94, 61);
+  font-size: larger;
+}
