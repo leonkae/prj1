@@ -38,11 +38,11 @@
   align-items: center;
 }
 
-.about-paragraph{
+.about-paragraph {
   width: 500px;
   margin: 10px;
 }
-.about-paragraph p{
+.about-paragraph p {
   text-align: end;
   font-weight: 500;
 }
@@ -78,4 +78,8 @@
 .main-wrapper nav a:focus-visible {
   color: rgb(223, 94, 61);
   font-size: larger;
+}
+.project-1,
+.project-2 {
+  border: 3px solid red;
 }
