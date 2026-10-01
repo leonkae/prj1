@@ -26,12 +26,28 @@
   <body>
     <div class="main-wrapper">
       <!-- this is the nav section -->
-      <nav>
-        <a href="">Home</a>
-        <a href="#about-section">About</a>
-        <a href="#work-section">Work</a>
-        <a href="#resume-section">Resume</a>
-        <a href="#contact-us">Contact</a>
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="#" class="logo">HTML PRJ1</a>
+
+          <!-- will be hidden -->
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+          <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#work-section">Work</a></li>
+            <li><a href="#resume-section">Resume</a></li>
+            <li> <a href="#contact-us">Contact</a></li>
+          </ul>
+          
+        </div>
       </nav>
       <!-- main page title -->
       <div class="page-title">
